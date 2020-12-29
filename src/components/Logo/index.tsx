@@ -26,20 +26,20 @@ const Logo = ({
       <path
         d="M30.163 27.16l-6.033-4.292a.5.5 0 00-.782.494l1.293 7.298 5.523-3.5z"
         fill="#110F28"
-        fill-opacity=".15"
+        fillOpacity=".15"
       />
       <path
         d="M7.592 7.103c-5.11 2.755-4.519 5-4.519 7.5M57.274 26.103v1M3.052 18.103v2M57.274 30.103v5"
         stroke="#fff"
-        stroke-opacity=".4"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeOpacity=".4"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
       <path
         d="M13.053 15.103v6M10.04 18.103h6.025"
         stroke="#0A0D27"
-        stroke-width="2"
-        stroke-linecap="round"
+        strokeWidth="2"
+        strokeLinecap="round"
       />
       <ellipse
         rx="1.506"
@@ -79,9 +79,9 @@ const Logo = ({
           y2="49.103"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF5F5F" />
-          <stop offset="1" stop-color="#F062C0" />
-          <stop offset="1" stop-color="#F23131" />
+          <stop stopColor="#FF5F5F" />
+          <stop offset="1" stopColor="#F062C0" />
+          <stop offset="1" stopColor="#F23131" />
         </linearGradient>
       </defs>
     </svg>
